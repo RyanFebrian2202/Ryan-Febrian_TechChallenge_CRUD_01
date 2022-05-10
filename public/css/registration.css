@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body{
+    background-color: #999999;
+}
+
+
+/* REGISTER */
+
+#Register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.register-bg{
+    background: url('../images/gallery-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 90vh;
+}
+
+.register-content{
+    width: 40%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.register-heading h1{
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+
+
+/* LOGIN */
+
+.login-bg{
+    background: url('../images/gallery-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30%;
+    height: 90vh;
+}
+
+.login-content{
+    padding-top: 120px;
+    width: 40%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.login-heading{
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 50px;
+}
+
+.login-heading h1{
+    font-size: 36px;
+    line-height: 54px;
+    font-weight: 400;
+    color: black;
+    font-weight: bold;
+}
+
+
+/* CAMPUR */
+
+#bottom-heading{
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+
+.register-input input{
+    width: 480px;
+    height: 55px;
+    border-radius: 20px;
+    border: none;
+    background-color: #eea876;
+    text-align: left;
+    margin-left: 15px;
+    padding-left: 22px;
+}
+
+.register-input label{
+    margin-left: 30px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.register-form > .register-input{
+    padding-bottom: 20px;
+}
+
+.register-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register-bottom p{
+    font-size: 14px;
+    padding-bottom: 25px;
+}
+
+.register-bottom a{
+    text-decoration: none;
+    color: #A0937D;
+    font-weight: bold;
+}
+
+.submitBtn{
+    width: 150px;
+    height: 50px;
+    background-color: #99582a;
+    border-radius: 15px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}

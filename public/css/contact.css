@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@500&family=Playfair+Display:wght@600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: large;
+}
+
+hr {
+    margin-top: 30px;
+    width: 1500px;
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+}
+
+h1 {
+    font-family: 'Poppins';
+    color: white;
+    font-size: 70px;
+}
+
+h2 {
+    font-family: 'Poppins';
+    color: white;
+}
+
+
+/* Contact us */
+
+
+.contact-us {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    height: auto;
+    background: linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0)), #432818;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-heading p {
+    color: white;
+    font-family: 'Montserrat';
+    margin: 40px 200px;
+    text-align: center;
+    font-size: 24px;
+}
+
+/* Form */
+
+.contact-form {
+    margin-top: 20px;
+    width: 700px;
+}
+
+.form-bg {
+    background-color: #bb9457;
+    padding: 48px 64px;
+    border-radius: 20px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.452);
+}
+
+.form-bg>*:not(:first-child) {
+    margin-top: 24px;
+}
+
+.contact-input {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contact-input label {
+    font-size: 24px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: white;
+}
+
+.contact-input label.error {
+    font-weight: bold;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    color: rgb(255, 251, 0);
+}
+
+.contact-input input,
+.contact-input textarea {
+    border-radius: 12px;
+    border: none;
+    font-size: 20px;
+    padding: 12px 24px;
+    width: auto;
+    font-family: 'Montserrat';
+}
+
+.contact-input textarea {
+    max-width: 568px;
+}
+
+.contact-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.submitBtn {
+    color: white;
+    background-color: #bb9457;
+    font-family: 'Poppins';
+    font-weight: bold;
+    border-radius: 100px;
+    border: none;
+    padding: 12px 48px;
+    font-size: 20px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+}

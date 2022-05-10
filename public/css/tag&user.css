@@ -1,0 +1,21 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header h4{
+    display: flex;
+    justify-self: flex-start;
+}
+
+.search-bar{
+    display: flex;
+    justify-self: flex-end;
+}
+
+.search{
+    display: flex;
+}
+
